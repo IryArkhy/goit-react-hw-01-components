@@ -1,0 +1,61 @@
+.statsSection {
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.title {
+  text-align: center;
+  background-color: white;
+  color: gainsboro;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 4;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.item > span {
+  text-align: center;
+}
+
+.statList > li:first-child {
+  background-color: teal;
+}
+
+.statList > li:last-child {
+  background-color: rgba(0, 128, 49, 0.719);
+}
+
+.statList > li:nth-child(2) {
+  background-color: rgba(201, 23, 91, 0.712);
+}
+
+.statList > li:nth-child(3) {
+  background-color: rgba(238, 177, 11, 0.705);
+}
+
+.statList > li:nth-child(4) {
+  background-color: rgba(20, 53, 240, 0.705);
+}
+
+.label,
+.percentage {
+  margin: 5px;
+  color: white;
+}
+
+.percentage {
+  font-size: 20px;
+}

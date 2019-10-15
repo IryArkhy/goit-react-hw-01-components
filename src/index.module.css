@@ -1,0 +1,12 @@
+@value primary-font from './variables.module.css';
+
+* {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e7ecf2;
+  font-family: 'Roboto Condensed', sans-serif;
+}

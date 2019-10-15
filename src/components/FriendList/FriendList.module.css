@@ -1,0 +1,38 @@
+.status {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(209, 65, 65);
+  display: block;
+}
+
+.friendList {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.isOnline {
+  composes: status;
+  background-color: rgb(77, 209, 65);
+}
+
+.item {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.item > span,
+img,
+p {
+  margin: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+  color: teal;
+  font-size: 20px;
+}
