@@ -18,8 +18,12 @@ const Stats = ({ title, stats }) => (
   </section>
 );
 
+Stats.defaultProps = {
+  title: '',
+};
+
 Stats.propTypes = {
-  title: T.string.isRequired,
+  title: T.string,
   stats: T.arrayOf(
     T.shape({
       id: T.string.isRequired,
