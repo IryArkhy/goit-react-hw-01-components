@@ -4,7 +4,7 @@ import styles from './Stats.module.css';
 
 const Stats = ({ title, stats }) => (
   <section className={styles.statsSection}>
-    <h2 className={styles.title}> {title}</h2>
+    {title && <h2 className={styles.title}>{title}</h2>}
     <ul className={styles.statList}>
       {stats.map(obj => {
         return (
