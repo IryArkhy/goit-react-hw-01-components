@@ -1,4 +1,4 @@
-__________React components_________
+__________React components______________
 
 GoIT___Homework 1__________________
 
